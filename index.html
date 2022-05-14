@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My new LP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div class="hero-img"></div>
+    <div class="wrapper">
+    <header>
+        <a href="#" class="logo">Shoe<span>Brand</span></a>
+        <nav>
+            <svg class="close" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.41 9L18.7 1.71C18.8638 1.5187 18.9494 1.27262 18.9397 1.02095C18.93 0.76927 18.8257 0.530532 18.6476 0.352437C18.4695 0.174342 18.2307 0.0700096 17.9791 0.0602884C17.7274 0.0505673 17.4813 0.136174 17.29 0.3L10 7.59L2.71 0.29C2.5187 0.126174 2.27262 0.040568 2.02095 0.0502892C1.76927 0.0600103 1.53053 0.164342 1.35244 0.342437C1.17434 0.520531 1.07001 0.75927 1.06029 1.01095C1.05057 1.26262 1.13617 1.5087 1.3 1.7L8.59 9L1.29 16.29C1.18532 16.3796 1.1003 16.49 1.04027 16.614C0.980252 16.7381 0.946521 16.8732 0.941202 17.0109C0.935882 17.1487 0.959088 17.286 1.00936 17.4143C1.05964 17.5426 1.1359 17.6592 1.23335 17.7567C1.3308 17.8541 1.44735 17.9304 1.57568 17.9806C1.704 18.0309 1.84133 18.0541 1.97905 18.0488C2.11677 18.0435 2.25191 18.0097 2.37597 17.9497C2.50004 17.8897 2.61035 17.8047 2.7 17.7L10 10.41L17.29 17.7C17.4813 17.8638 17.7274 17.9494 17.9791 17.9397C18.2307 17.93 18.4695 17.8257 18.6476 17.6476C18.8257 17.4695 18.93 17.2307 18.9397 16.9791C18.9494 16.7274 18.8638 16.4813 18.7 16.29L11.41 9Z" fill="black"/>
+                </svg>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sneakers</a></li>
+            <li><a href="#">Players</a></li>
+        </ul>
+        
+            
+        </nav>
+        <svg class="close" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white"/>
+            </svg>
+            
+    </header>
+    <section class="hero">
+      <h1>Regain your confidence on the court.</h1>
+      <p class="subhead">A shoe built with purpose to take your game to the next level</p>
+
+    <svg class="down-arrow" viewBox="0 0 16 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.29289 131.707C7.68341 132.098 8.31658 132.098 8.7071 131.707L15.0711 125.343C15.4616 124.953 15.4616 124.319 15.0711 123.929C14.6805 123.538 14.0474 123.538 13.6568 123.929L7.99999 129.586L2.34314 123.929C1.95262 123.538 1.31945 123.538 0.928927 123.929C0.538402 124.319 0.538402 124.953 0.928927 125.343L7.29289 131.707ZM7 -4.37114e-08L6.99999 131L8.99999 131L9 4.37114e-08L7 -4.37114e-08Z" fill="black"/>
+</svg>
+</section>
+
+<section class="more-info">
+<div class="feature">
+    <div class="content">
+        <p class="title">Lightweight</p>
+        <p class="desc">Uppermesh material provides ventilation</p>
+        
+    </div>
+    <img src="/Images/shoe2.jpg" alt="Another shoe">
+</div>
+<div class="feature left">
+    <div class="content">
+        <p class="title">Lightweight</p>
+        <p class="desc">Uppermesh material provides ventilation</p>
+        
+    </div>
+    <img src="/Images/shoe3.jpg" alt="Another shoe">
+</div>
+<div class="feature">
+    <div class="content">
+        <p class="title">Lightweight</p>
+        <p class="desc">Uppermesh material provides ventilation</p>
+        
+    </div>
+    <img src="/Images/shoe4.jpg" alt="Another shoe">
+    </div>
+    
+        
+    </div>
+</section>
+    </div>
+
+    <script>
+        const menu = document.querySelector('.menu')
+        const close = document.querySelector('.menu')
+        const nav = document.querySelector('.menu')
+
+        menu.addEventListener('click', () => {
+        nav.classList.add('open-nav')
+        })
+
+        close.addEventListener('click', () => {
+        nav.classList.remove('open-nav')
+        })
+    </script>
+</body>
+</html>
